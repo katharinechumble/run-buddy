@@ -11,3 +11,5 @@ https://katharinechumble.github.io/run-buddy/
 
 ## Contribution
 Made with <3 by KHumble
+
+### &copy;2019 Run Buddy, Inc
