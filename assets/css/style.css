@@ -37,7 +37,7 @@ header nav ul li {
     list-style: none;
 }
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -72,6 +72,7 @@ section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 /* Hero Style End */
 /* Hero CTA Start */
@@ -81,7 +82,7 @@ section {
     margin: 3.5%;
     color: #fff;
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 .hero-cta h2 {
     font-style: italic;
@@ -189,7 +190,7 @@ h3 {
 /* Section Title Style */
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     border-bottom: 3px solid;
     padding-bottom: 20px;
@@ -310,3 +311,28 @@ h3 {
     color: #fce138;
 }
 /* REACH OUT STYLES END */
+
+/* media queries begin (these always go at the end of the style sheet */
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px){
+    header h1 a {
+        /* this will be applied on any screen smaller than 980px */
+        
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px){
+    header h1 {
+        /* this will be applied on any screen between 768px and 575px */
+        
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    header h1 {
+        /*this will be applied on any screen smaller than 575px */
+        
+    }
+}
