@@ -136,8 +136,10 @@ h3 {
 }
 /* End What We Do Section */
 /* Begin What You Do Section */
+.steps{
+    background: #fce138;
+}
 .step {
-    background-color: #fce138;
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
